@@ -1,4 +1,4 @@
-/** @type {import('jest').Config} */
+/**!@type*{import('jest').Config} */
 const config = {
   roots: ["<rootDir>/src"],
   collectCoverageFrom: ["src/**/*.{js,jsx,ts,tsx}", "!src/**/*.d.ts"],
@@ -26,3 +26,4 @@ const config = {
 }
 
 module.exports = config
+ 
